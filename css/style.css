@@ -1,0 +1,33 @@
+h3 {
+	color: green;
+}
+body {
+	margin: 0;
+	background-color: #f4f4f4;
+	color: #55555;
+
+	line-height: 1.6em;
+}
+.box-1 {
+	background-color: #333333;
+	color: #ffffff;
+
+	border: 5px red solid;
+	border-top-style: dotted;
+
+	padding: 20px;
+	margin: 20px 0px;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.box-1 h3 {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+}
