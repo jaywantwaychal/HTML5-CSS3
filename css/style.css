@@ -31,3 +31,89 @@ body {
 	letter-spacing: 0.2em;
 	word-spacing: 0.5em;
 }
+
+.categories {
+	border:	5px red solid;
+
+}
+.categories ul {
+	padding: 20px;
+}
+.categories li {
+	list-style-type: none;
+	padding: 0;
+}
+
+a.visited {
+	color: red;
+}
+
+.my-form {
+	padding: 20px;
+}
+
+.my-form .form-data{
+	padding-bottom: 10px;
+}
+.my-form label {
+	display: block;
+}
+
+.my-form input[type="text"]{
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="submit"] {
+	background-color: black;
+	color: white;
+	padding: 10px 10px;
+	border-style: none;:
+
+}
+
+.block-test {
+	float: left;
+	width: 33%;
+	border: 1px solid black;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/*clear all float */
+.clr{
+	clear: both;
+}
+
+/**/
+
+.siding {
+	border: solid red;
+	padding: 10px 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#main-block {
+	float: left;
+	width: 70%;
+
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.my-list {
+
+}
+
+.my-list li:nth-child(even) {
+	box-sizing: border-box;
+	background-color: yellow;
+}
